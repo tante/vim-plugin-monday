@@ -1,8 +1,8 @@
 " Vim plugin file
 "
-" Maintainer:   Stefan Karlsson <stefan.74@comhem.se>
-" Last Change:  6 May 2005
-"
+" Original Maintainer:   Stefan Karlsson <stefan.74@comhem.se>
+" Modified by:     Jürgen Geuter <tante@the-gay-bar.com>
+"               
 " Purpose:      To make <ctrl-a> and <ctrl-x> operate on the names of weekdays
 "               and months. Also to make them operate on text such as 1st, 2nd,
 "               3rd, and so on.
@@ -68,6 +68,13 @@ call <SID>Add_word_pair('september', 'october')
 call <SID>Add_word_pair('october',   'november')
 call <SID>Add_word_pair('november',  'december')
 call <SID>Add_word_pair('december',  'january')
+
+call <SID>Add_word_pair('true',  'false')
+call <SID>Add_word_pair('false',  'true')
+
+call <SID>Add_word_pair('off',  'on')
+call <SID>Add_word_pair('on',  'off')
+
 
 call <SID>Add_number_suffix('11', 'th')
 call <SID>Add_number_suffix('12', 'th')
