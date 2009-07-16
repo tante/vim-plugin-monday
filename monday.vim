@@ -75,6 +75,11 @@ call <SID>Add_word_pair('false',  'true')
 call <SID>Add_word_pair('off',  'on')
 call <SID>Add_word_pair('on',  'off')
 
+call <SID>Add_word_pair('start',  'stop')
+call <SID>Add_word_pair('start',  'stop')
+
+call <SID>Add_word_pair('enable',  'disable')
+call <SID>Add_word_pair('disable',  'enable')
 
 call <SID>Add_number_suffix('11', 'th')
 call <SID>Add_number_suffix('12', 'th')
